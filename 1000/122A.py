@@ -6,6 +6,7 @@ result = []
 queue = [4, 7]  
 index = 0       
 
+# should work even for 1000 < n < TLE limit
 while index < len(queue):
     num = queue[index]
     index += 1  
